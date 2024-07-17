@@ -12,5 +12,5 @@ Create 3 Tests for each Senario using Selenium  webdriver and assersion TestNg
        -c- for Prime Day Deal we can not add product to cart so we make test pass anay way 
 -3- for senario 3 we run test without loging and roun for loop to loop the senario for each case 
 
--4- We are using ExtentReports and have log files for all screenshots and failed test screenshots with log for all test steps.
+-4- We are using ExtentReports and have log files for all screenshots and for only failed test screenshots with log for all test steps.
 
