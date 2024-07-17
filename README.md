@@ -1,17 +1,19 @@
-# Amoazon_Tch_T
+# Amazon_Tech_T
 
-. Create 3 Tests for each Senario using Selenium  webdriver and assersion TestNg
+## Create 3 Tests for each Scenario using Selenium WebDriver and TestNG assertions
 
-1-Scenario 1 (Verify that user cannot log in with valid but not registered email)
+### Scenario 1: Verify that a user cannot log in with a valid but unregistered email
 
--2- Scenario 2 (Verify that Items are added to cart correctly)
+### Scenario 2: Verify that items are added to the cart correctly
 
-   we are follow steps of user and consider the following:
-   
-       -A- some products have one Item so we add only the available one item to avoide Assertion Faild
-       -B- New offers come with product so we reject it
-       -c- for Prime Day Deal we can not add product to cart so we make test pass anay way 
--3- for senario 3 we run test without loging and roun for loop to loop the senario for each case 
+We follow the steps of the user and consider the following:
 
--4- We are using ExtentReports and have log files for all screenshots and for only failed test screenshots with log for all test steps.
+- **A**: Some products have only one item available, so we add only the available item to avoid assertion failures.
+- **B**: New offers come with products, so we reject them.
+- **C**: For Prime Day deals, we cannot add the product to the cart, so we make the test pass anyway.
 
+### Scenario 3: Run the test without logging in and loop the scenario for each case
+
+### Additional Notes
+
+- We are using ExtentReports and have log files for all screenshots, and for failed test screenshots only, with logs for all test steps.
