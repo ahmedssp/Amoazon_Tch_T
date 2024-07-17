@@ -1,7 +1,8 @@
-# Task_MDIV0.1
-Create 3 Tests for each Senario using Selenium  webdriver and assersion TestNg
+# Amoazon_Tch_T
 
--1-Scenario 1 (Verify that user cannot log in with valid but not registered email)
+. Create 3 Tests for each Senario using Selenium  webdriver and assersion TestNg
+
+1-Scenario 1 (Verify that user cannot log in with valid but not registered email)
 
 -2- Scenario 2 (Verify that Items are added to cart correctly)
 
