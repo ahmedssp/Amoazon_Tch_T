@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Listeners.CustomTestListener"/>
+    </listeners>
+    <test  name="test">
+        <classes>
+            <class name="Testing_Package.testall">
+                <methods>
+                    <include name="login_valid_not_registered_email"/>
+                    <include name="login_valid_not_registered_email2"/>
+                    <include name="ttt"/>
+                    <!--                    <include name="added_Items"/>-->
+                    <!--                    <include name="Scenario_3"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
